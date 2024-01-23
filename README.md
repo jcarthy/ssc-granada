@@ -28,3 +28,7 @@ This contains bash scripts with hyperparameters for running scripts within the b
 ### **datasets**
 
 This directory is for different datasets. There is an empty folder, llaima where the data.npy and labels.npy files from Google Drive should be placed.
+
+### **scripts**
+
+Scripts for each of the lectures, organized by topic and then by day.
