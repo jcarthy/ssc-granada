@@ -1,0 +1,6 @@
+umap-learn
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
