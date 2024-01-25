@@ -6,11 +6,21 @@ This repo contains code used for a short course on machine learning and explorat
 
 The following packages must be installed:
 
-- scipy
-- numpy
-- scikit-learn
+- scikit-learn (v1.4)
+- umap-learn
+- jupyter
+- pandas
+- seaborn
+- matplotlib
 
-It is advised that students create a conda environment for this course and install the requisite packages into this conda environment. Alternatively pip may be used (not recommended)
+It is advised that students create a conda environment for this course and install the requisite packages into this conda environment. The following command will create a conda environment and install the requisite packages to this environment.
+
+```bash
+conda create -n ssc-granada -c conda-forge scikit-learn=1.4 umap-learn jupyter pandas seaborn matplotlib
+```
+
+
+Alternatively pip may be used (not recommended)
 
 ## Repository Structure
 
@@ -31,4 +41,8 @@ This directory is for different datasets. There is an empty folder, llaima where
 
 ### **scripts**
 
-Scripts for each of the lectures, organized by topic and then by day.
+Scripts for different feature extraction routines
+
+### jupyter
+
+Notebooks with different machine learning exercises can be found here.
